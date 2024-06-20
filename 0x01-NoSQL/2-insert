@@ -1,0 +1,9 @@
+// insert document
+db.createCollection("school");
+
+db.school.insert(
+  { name: "Holberton school" },
+  { upsert: true, multi: false },
+);
+
+exit;
