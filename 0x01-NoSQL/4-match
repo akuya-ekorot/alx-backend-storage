@@ -1,0 +1,3 @@
+// find with condition
+db.school.find({ name: "Holberton school" });
+exit;
